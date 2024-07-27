@@ -10,6 +10,6 @@ namespace Reorganization_Bot
 
         public string info = "💾ИНФОРАМЦИОННЫЕ РЕСУРСЫ💾" +
             "\r\n" +
-            "\r\nГруппа VK: https://vk.com/white_sunrisen";
+            "\r\nГруппа VK: https://vk.com/";
     }
 }
