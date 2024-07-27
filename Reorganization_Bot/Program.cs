@@ -36,7 +36,8 @@ namespace Reorganization_Bot
 
         private static void Main(string[] args)
         {
-            db.Connection("JEFFPHARAON\\SQLEXPRESS", "Reorganization"); //инициализация базы данных
+            //сервер является конфиденциальной информацией
+            db.Connection("", "Reorganization"); //инициализация базы данных
             var client = new TelegramBotClient(""); //api-ключ является конфиденциальной информацией
             client.StartReceiving(Update, Error);
             Console.ReadLine();
